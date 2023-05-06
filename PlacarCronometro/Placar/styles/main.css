@@ -1,0 +1,56 @@
+.placar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 300px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.placar__nome,
+.placar__pontuacao {
+    padding: 10px;
+    text-align: center;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.placar__nome {
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.placar__nome--A {
+    color: #009578;
+}
+
+.placar__nome--B {
+    color: #2d0095;
+}
+
+.placar__pontuacao {
+    font-size: 2em;
+}
+
+.placar__controles {
+    display: flex;
+}
+
+.placar__controle-button {
+    flex-grow: 1;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.placar__controle-button:hover {
+    background: #ddd;
+}
+
+.placar__controle-button:active {
+    background: #ccc;
+}

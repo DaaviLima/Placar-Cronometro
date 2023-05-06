@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/cronometro.css">
+    
+
+</head>
+<body>
+    <div class="conteiner">
+    <div id="app"></div>
+
+    <div class="placar">
+         
+    </div>
+            <div class="placar_controle">
+    
+    </div>
+
+    <TABLE WIDTH="300" HEIGHT="25%" BORDER="4" CELLSPACING="10" CELLPADDING="7">
+        <TR BGCOLOR= #E0F8E0>
+            <TD><FONT FACE= "Calibri"><B>Time A</B></TD>
+            <TD><FONT FACE= "Calibri"><B>Time B</B></TD>
+        </TR>
+        <TR BGCOLOR = #E0EEEE>
+            <TD>
+                <FONT FACE= "Calibri">Jogador 1</FONT><BR>
+                <FONT FACE= "Calibri">Jogador 2</FONT><BR>
+                <FONT FACE= "Calibri">Jogador 3</FONT><BR>
+                <FONT FACE= "Calibri">Jogador 4</FONT><BR>
+                <FONT FACE= "Calibri">Jogador 5</FONT><BR>
+                <FONT FACE= "Calibri">Jogador 6</FONT>
+            </TD>
+            <TD>
+                <FONT FACE= "Calibri">Jogador 1</FONT><BR>
+                <FONT FACE= "Calibri">Jogador 2</FONT><BR>
+                <FONT FACE= "Calibri">Jogador 3</FONT><BR>
+                <FONT FACE= "Calibri">Jogador 4</FONT><BR>
+                <FONT FACE= "Calibri">Jogador 5</FONT><BR>
+                <FONT FACE= "Calibri">Jogador 6</FONT>
+            </TD>
+        </TR>
+    </TABLE>
+    <div class="cronometro-container">
+        <div class="time-container">
+            <span data-time >00:00:00</span>
+        </div>
+        <div class="buttons-container">
+            <button data-start="start">Iniciar</button>
+            <button data-pause disabled>Pausar</button>
+            <button data-stop disabled>Zerar</button>
+        </div>
+    </div>
+    
+    <script src="cronometro.js"></script>        
+    <script src="main.js" type="module"></script>
+</body>
+</html>
